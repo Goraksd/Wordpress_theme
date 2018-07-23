@@ -1,0 +1,1711 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	height: 100vh;
+}
+
+html{
+	height: 100%;
+}
+
+.head{
+	height: 100vh;
+	background-color: #3F3F3FFF;
+}
+img{
+	margin-left: 1000px;
+}
+
+.photo_me{
+	margin-top: 50px;
+	margin-left: 1000px;
+}
+.name{
+    font-family: Arial;
+	font-size: 40;
+	color: #FFFFFCFF;
+	text-align: center;
+}
+
+.artc_games{
+	padding:0.2;
+   
+    text-align: center;
+    height: 100%;
+ 
+	height:100vh;
+	background:#4C4C4CFF; 
+}
+
+.text_me{
+	margin-top: 70px;
+	font-family: Tahoma;
+	font-size: 40;
+	color: #FFFFFCFF;
+}
+
+.game_text{
+	margin-top: 100px;
+	font-family: Tahoma;
+	font-size: 40;
+	color: #FFFFFCFF
+}
+
+.games_row{
+	margin-top: 250px;
+	width: 100%;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.game{
+	margin: auto;
+	width: 16.6%;
+	height: 100%;
+	
+	
+}
+
+.gameico{
+	margin: auto;
+	width: 220px;
+	height: 220px;
+	border-radius: 100%;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	filter: grayscale(1);
+	transition: .3s;
+}
+
+.gameico:hover{
+	filter: grayscale(0);
+	transition: .3s;
+}
+
+.video_main{
+	padding:0.2;
+   
+    text-align: center;
+    height: 100%;
+ 
+	height:100vh;
+	background: #3F3F3FFF; 
+}
+
+.video_text{
+	margin-top: 80px;
+	font-family: Tahoma;
+	font-size: 40;
+	color: #FFFFFCFF
+}
+
+ .video{
+	margin-top: 60px;
+	max-width: 100%;
+} 
+
+iframe{
+	width: 1000;
+	height: 600;
+}
+
+.why{
+	padding:0.2;
+   
+    text-align: center;
+    height: 100%;
+ 
+	height:100vh;
+	background: #4C4C4CFF; 
+	flex-grow: 1;
+}
+
+.title{
+	margin-top: 80px;
+	font-family: Tahoma;
+	font-size: 40;
+	color: #FFFFFCFF
+}
+
+.why_text{
+	margin-top: 100px;
+	font-family: Tahoma;
+	font-size: 40;
+	color: #FFFFFCFF
+}
+
+.foot {
+	width: 100%;
+	height: 200px;
+	background: #3F3F3FFF;
+
+}
+
+
+.social_row {
+	width: 100%;
+	height: 190px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.social{
+	margin: auto;
+	width: 25%;
+	height: 100%;
+
+}
+
+.social_ico{
+	margin: 50px;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background-color: #3F3F3FFF;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+footer{
+	bottom: 0;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 350px) {
+  .name{
+  	font-size: 25;
+  }
+
+.photo_me{
+	margin-top: 1px;
+	width: 300px;
+	height: 400px;
+}
+
+  .text_me{
+  	font-size: 18;
+  	margin-top: 37px;
+  }
+
+  .game_text{
+  	font-size: 18;
+  	margin-top: 50px;
+  }
+
+
+  .games_row{
+	margin-top: 250px;
+	width: 30%;
+	height: 250px;
+	justify-content: center;
+	align-items: center;
+	display: table-header-group;
+}
+
+  .game{
+  	width: 30%;
+	margin: auto;
+	width: 30%;
+	height: 100%;
+}
+ 
+ .gameico{ 
+	margin-left: 80px;
+	margin-top: 10px;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+  .video_text{
+	margin-top: 50px;
+  	font-size: 18;
+  }
+
+  .title{
+  	margin-top:600px;
+  	font-size: 18;
+  }
+
+  .why_text{
+  	margin-top:600px;
+  	font-size: 18;
+  }
+
+	
+iframe {
+	width: 300px;
+	height: 250px;
+}
+
+.why{
+	padding:0.2;
+   
+    text-align: center;
+    height: 100%;
+ 
+	height:100vh;
+	background: #4C4C4CFF; 
+	flex-grow: 1;
+}
+
+.title{
+	margin-top: 10px;
+	font-family: Tahoma;
+	font-size: 18;
+	color: #FFFFFCFF
+}
+
+.why_text{
+	margin-top: 20px;
+	font-family: Tahoma;
+	font-size: 18;
+	color: #FFFFFCFF
+}
+
+.foot {
+	width: 100%;
+	height: 150px;
+	background: #3F3F3FFF;
+
+}
+
+
+.social_row {
+	width: 90%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.social{
+	width: 40%;
+	height: 100%;
+
+}
+
+.social_ico{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background-color: #3F3F3FFF;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: center;
+}
+}
+
+@media only screen and (min-width: 351px) and (max-width:370px){
+.photo_me{
+	margin-left: 17px;
+	margin-top: 1px;
+	width: 300px;
+	height: 400px;
+}
+
+.text_me{
+  	font-size: 18;
+  	margin-top: 45px;
+  }
+
+.game_text{
+  	font-size: 20;
+  	margin-top: 50px;
+  }
+
+  
+.games_row{
+	margin-top: 250px;
+	width: 30%;
+	height: 250px;
+	justify-content: center;
+	align-items: center;
+	display: table-header-group;
+}
+
+  .game{
+  	width: 30%;
+	margin: auto;
+	width: 30%;
+	height: 100%;
+}
+ 
+ .gameico{ 
+	margin-left: 80px;
+	margin-top: 10px;
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.video_text{
+	margin-top: 50px;
+  	font-size: 18;
+  }
+
+  .title{
+  	margin-top:600px;
+  	font-size: 18;
+  }
+
+  .why_text{
+  	margin-top:600px;
+  	font-size: 18;
+  }
+
+	
+iframe {
+	width: 300px;
+	height: 250px;
+}
+
+.why{
+	padding:0.2;
+   
+    text-align: center;
+    height: 100%;
+ 
+	height:100vh;
+	background: #4C4C4CFF; 
+	flex-grow: 1;
+}
+
+.title{
+	margin-top: 10px;
+	font-family: Tahoma;
+	font-size: 18;
+	color: #FFFFFCFF
+}
+
+.why_text{
+	margin-top: 20px;
+	font-family: Tahoma;
+	font-size: 18;
+	color: #FFFFFCFF
+}
+
+.foot {
+	width: 100%;
+	height: 160px;
+	background: #3F3F3FFF;
+
+}
+
+
+.social_row {
+	width: 93%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.social{
+	width: 40%;
+	height: 100%;
+
+}
+
+.social_ico{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #3F3F3FFF;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: center;
+}
+}
+
+@media only screen and (min-width: 370px) and (max-width: 400px) {
+
+.photo_me{
+	margin-left: 25px;
+	margin-top: 1px;
+	width: 300px;
+	height: 400px;
+}
+
+.text_me{
+  	font-size: 18;
+  	margin-top: 45px;
+  }
+
+.game_text{
+  	font-size: 20;
+  	margin-top: 50px;
+  }
+
+  
+.games_row{
+	margin-top: 250px;
+	width: 30%;
+	height: 250px;
+	justify-content: center;
+	align-items: center;
+	display: table-header-group;
+}
+
+  .game{
+  	width: 30%;
+	margin: auto;
+	width: 30%;
+	height: 100%;
+}
+ 
+ .gameico{ 
+	margin-left: 80px;
+	margin-top: 10px;
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.video_text{
+	margin-top: 50px;
+  	font-size: 18;
+  }
+
+  .title{
+  	margin-top:600px;
+  	font-size: 18;
+  }
+
+  .why_text{
+  	margin-top:600px;
+  	font-size: 18;
+  }
+
+	
+iframe {
+	width: 300px;
+	height: 250px;
+}
+
+.why{
+	padding:0.2;
+   
+    text-align: center;
+    height: 100%;
+ 
+	height:100vh;
+	background: #4C4C4CFF; 
+	flex-grow: 1;
+}
+
+.title{
+	margin-top: 10px;
+	font-family: Tahoma;
+	font-size: 30;
+	color: #FFFFFCFF
+}
+
+.why_text{
+	margin-top: 20px;
+	font-family: Tahoma;
+	font-size: 25;
+	color: #FFFFFCFF
+}
+
+.foot {
+	width: 100%;
+	height: 160px;
+	background: #3F3F3FFF;
+
+}
+
+
+.social_row {
+	width: 93%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.social{
+	width: 40%;
+	height: 100%;
+
+}
+
+.social_ico{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #3F3F3FFF;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: center;
+}
+}
+@media only screen and (min-width: 401px) and (max-width: 470px) {
+.photo_me{
+	margin-left: 47px;
+	margin-top: 1px;
+	width: 300px;
+	height: 400px;
+}
+
+.text_me{
+	font-size: 20;
+}
+
+.games_row{
+	margin-top: 250px;
+	width: 30%;
+	height: 250px;
+	justify-content: center;
+	align-items: center;
+	display: table-header-group;
+}
+
+  .game{
+  	width: 30%;
+	margin: auto;
+	width: 30%;
+	height: 100%;
+}
+ 
+ .gameico{ 
+	margin-left: 115px;
+	margin-top: 10px;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+iframe {
+	width: 370px;
+	height: 300px;
+}
+
+.why{
+	padding:0.2;
+   
+    text-align: center;
+    height: 100%;
+ 
+	height:100vh;
+	background: #4C4C4CFF; 
+	flex-grow: 1;
+}
+
+.title{
+	margin-top: 10px;
+	font-family: Tahoma;
+	font-size: 30;
+	color: #FFFFFCFF
+}
+
+.why_text{
+	margin-top: 20px;
+	font-family: Tahoma;
+	font-size: 27;
+	color: #FFFFFCFF
+}
+
+.social{
+	width: 37%;
+	height: 100%;
+}
+
+.foot {
+	width: 100%;
+	height: 160px;
+	background: #3F3F3FFF;
+}
+
+.social_row {
+	width: 93%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social_ico{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #3F3F3FFF;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: center;
+}
+
+}
+
+@media only screen and (min-width: 471px) and (max-width: 530px) {
+
+.photo_me{
+	margin-left: 65px;
+	margin-top: 1px;
+}
+
+.name{
+	font-size: 30;
+}
+
+.text_me{
+	font-size: 22;
+	margin-top: 20px;
+}
+
+.games_row{
+	margin-top: 250px;
+	width: 30%;
+	height: 250px;
+	justify-content: center;
+	align-items: center;
+	display: table-header-group;
+}
+
+  .game{
+  	width: 30%;
+	margin: auto;
+	width: 30%;
+	height: 100%;
+}
+ 
+ .gameico{ 
+	margin-left: 135px;
+	margin-top: 10px;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+iframe {
+	width: 450px;
+	height: 370px;
+}
+
+.why_text{
+	font-size: 20px;
+}
+
+.social{
+	width: 37%;
+	height: 100%;
+}
+
+.foot {
+	width: 100%;
+	height: 160px;
+	background: #3F3F3FFF;
+}
+
+
+.social_row {
+	width: 93%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social_ico{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #3F3F3FFF;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: center;
+}
+}
+
+@media only screen and (min-width: 531px) and (max-width: 600px){
+
+.photo_me{
+	margin-left: 75px;
+	margin-top: 1px;
+}
+
+.name{
+	font-size: 30;
+}
+
+.text_me{
+	font-size: 22;
+	margin-top: 20px;
+}
+
+.games_row{
+	margin-top: 250px;
+	width: 30%;
+	height: 250px;
+	justify-content: center;
+	align-items: center;
+	display: table-header-group;
+}
+
+  .game{
+  	width: 30%;
+	margin: auto;
+	width: 30%;
+	height: 100%;
+}
+ 
+ .gameico{ 
+	margin-left: 145px;
+	margin-top: 10px;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+iframe {
+	width: 450px;
+	height: 370px;
+}
+
+.why_text{
+	font-size: 20px;
+}
+
+.social{
+	width: 37%;
+	height: 100%;
+}
+
+.foot {
+	width: 100%;
+	height: 160px;
+	background: #3F3F3FFF;
+}
+
+
+.social_row {
+	width: 93%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social_ico{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #3F3F3FFF;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: center;
+}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 700px){
+
+.photo_me{
+	margin-left: 115px;
+	margin-top: 1px;
+}
+
+.name{
+	font-size: 30;
+}
+
+.text_me{
+	font-size: 22;
+	margin-top: 20px;
+}
+
+.games_row{
+	margin-top: 250px;
+	width: 30%;
+	height: 250px;
+	justify-content: center;
+	align-items: center;
+	display: table-header-group;
+}
+
+  .game{
+  	width: 30%;
+	margin: auto;
+	width: 30%;
+	height: 100%;
+}
+ 
+ .gameico{ 
+	margin-left: 170px;
+	margin-top: 10px;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+iframe {
+	width: 450px;
+	height: 370px;
+}
+
+.why_text{
+	font-size: 20px;
+}
+
+.social{
+	width: 37%;
+	height: 100%;
+}
+
+.foot {
+	width: 100%;
+	height: 160px;
+	background: #3F3F3FFF;
+}
+
+
+.social_row {
+	width: 93%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social_ico{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #3F3F3FFF;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: center;
+}
+}
+
+@media only screen and (min-width: 701px) and (max-width: 800px){
+
+.photo_me{
+	margin-left: 150px;
+	margin-top: 1px;
+}
+
+.name{
+	font-size: 30;
+}
+
+.text_me{
+	font-size: 22;
+	margin-top: 20px;
+}
+
+.games_row{
+	margin-top: 250px;
+	width: 30%;
+	height: 250px;
+	justify-content: center;
+	align-items: center;
+	display: table-header-group;
+}
+
+  .game{
+  	width: 30%;
+	margin: auto;
+	width: 30%;
+	height: 100%;
+}
+ 
+ .gameico{ 
+	margin-left: 200px;
+	margin-top: 10px;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+iframe {
+	width: 450px;
+	height: 370px;
+}
+
+.why_text{
+	font-size: 20px;
+}
+
+.social{
+	width: 37%;
+	height: 100%;
+}
+
+.foot {
+	width: 100%;
+	height: 160px;
+	background: #3F3F3FFF;
+}
+
+
+.social_row {
+	width: 93%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social_ico{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #3F3F3FFF;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: center;
+}
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1600px) {
+
+.photo_me{
+	margin-left: 75px;
+	margin-top: 1px;
+}
+
+.name{
+	font-size: 30;
+}
+
+.text_me{
+	font-size: 22;
+	margin-top: 20px;
+}
+
+.games_row{
+	margin-top: 250px;
+	width: 30%;
+	height: 250px;
+	justify-content: center;
+	align-items: center;
+	display: table-header-group;
+}
+
+  .game{
+  	width: 30%;
+	margin: auto;
+	width: 30%;
+	height: 100%;
+}
+ 
+ .gameico{ 
+	margin-left: 145px;
+	margin-top: 10px;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+iframe {
+	width: 450px;
+	height: 370px;
+}
+
+.why_text{
+	font-size: 20px;
+}
+
+.social{
+	width: 37%;
+	height: 100%;
+}
+
+.foot {
+	width: 100%;
+	height: 160px;
+	background: #3F3F3FFF;
+}
+
+
+.social_row {
+	width: 93%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social_ico{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #3F3F3FFF;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: center;
+}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 700px){
+
+.photo_me{
+	margin-left: 115px;
+	margin-top: 1px;
+}
+
+.name{
+	font-size: 30;
+}
+
+.text_me{
+	font-size: 22;
+	margin-top: 20px;
+}
+
+.games_row{
+	margin-top: 250px;
+	width: 30%;
+	height: 250px;
+	justify-content: center;
+	align-items: center;
+	display: table-header-group;
+}
+
+  .game{
+  	width: 30%;
+	margin: auto;
+	width: 30%;
+	height: 100%;
+}
+ 
+ .gameico{ 
+	margin-left: 170px;
+	margin-top: 10px;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+iframe {
+	width: 450px;
+	height: 370px;
+}
+
+.why_text{
+	font-size: 20px;
+}
+
+.social{
+	width: 37%;
+	height: 100%;
+}
+
+.foot {
+	width: 100%;
+	height: 160px;
+	background: #3F3F3FFF;
+}
+
+
+.social_row {
+	width: 93%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social_ico{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #3F3F3FFF;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: center;
+}
+}
+
+@media only screen and (min-width: 701px) and (max-width: 800px){
+
+.photo_me{
+	margin-left: 150px;
+	margin-top: 1px;
+}
+
+.name{
+	font-size: 30;
+}
+
+.text_me{
+	font-size: 22;
+	margin-top: 20px;
+}
+
+.games_row{
+	margin-top: 250px;
+	width: 30%;
+	height: 250px;
+	justify-content: center;
+	align-items: center;
+	display: table-header-group;
+}
+
+  .game{
+  	width: 30%;
+	margin: auto;
+	width: 30%;
+	height: 100%;
+}
+ 
+ .gameico{ 
+	margin-left: 200px;
+	margin-top: 10px;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+iframe {
+	width: 450px;
+	height: 370px;
+}
+
+.why_text{
+	font-size: 20px;
+}
+
+.social{
+	width: 37%;
+	height: 100%;
+}
+
+.foot {
+	width: 100%;
+	height: 160px;
+	background: #3F3F3FFF;
+}
+
+
+.social_row {
+	width: 93%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social_ico{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #3F3F3FFF;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: center;
+}
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1250px) {
+
+.photo_me{
+	margin-left: 380px;
+	margin-top: 1px;
+}
+
+.name{
+	font-size: 30;
+}
+
+.text_me{
+	font-size: 22;
+	margin-top: 20px;
+}
+
+.games_row{
+	margin-top: 250px;
+	width: 30%;
+	height: 250px;
+	justify-content: center;
+	align-items: center;
+	display: table-header-group;
+}
+
+  .game{
+  	width: 30%;
+	margin: auto;
+	width: 30%;
+	height: 100%;
+}
+ 
+ .gameico{ 
+	margin-left: 370px;
+	margin-top: 10px;
+	width: 82px;
+	height: 82px;
+	border-radius: 100%;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+iframe {
+	width: 800px;
+	height: 500px;
+}
+
+.why_text{
+	font-size: 20px;
+}
+
+.social{
+	width: 37%;
+	height: 100%;
+}
+
+.foot {
+	width: 100%;
+	height: 160px;
+	background: #3F3F3FFF;
+}
+
+
+.social_row {
+	width: 130%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social_ico{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #3F3F3FFF;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: center;
+}
+}
+
+@media only screen and (min-width: 1251px) and (max-width: 1349px){
+
+.photo_me{
+	margin-left: 450px;
+	margin-top: 1px;
+}
+
+.name{
+	font-size: 30;
+}
+
+.text_me{
+	font-size: 22;
+	margin-top: 20px;
+}
+
+.game_text{
+	margin-top: 35px;
+}
+
+.games_row{
+	margin-top: 250px;
+	width: 30%;
+	height: 250px;
+	justify-content: center;
+	align-items: center;
+	display: table-header-group;
+}
+
+  .game{
+  	width: 30%;
+	margin: auto;
+	width: 30%;
+	height: 100%;
+}
+ 
+ .gameico{ 
+	margin-left: 415px;
+	margin-top: 10px;
+	width: 82px;
+	height: 82px;
+	border-radius: 100%;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+iframe {
+	width: 800px;
+	height: 500px;
+}
+
+.why_text{
+	font-size: 20px;
+}
+
+.social{
+	width: 25%;
+	height: 100%;
+}
+
+.foot {
+	width: 100%;
+	height: 160px;
+	background: #3F3F3FFF;
+}
+
+
+.social_row {
+	width: 130%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social_ico{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #3F3F3FFF;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: center;
+}
+}
+
+@media only screen and (min-width: 1350px) and (max-width: 1399px){
+
+.photo_me{
+	margin-left: 500px;
+	margin-top: 1px;
+}
+
+.name{
+	font-size: 30;
+}
+
+.text_me{
+	font-size: 22;
+	margin-top: 20px;
+}
+
+.games_row{
+	margin-top: 250px;
+	width: 100%;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.game{
+	margin: auto;
+	width: 16.6%;
+	height: 100%;
+}
+
+.gameico{
+	margin: auto;
+	width: 220px;
+	height: 220px;
+	border-radius: 100%;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	filter: grayscale(1);
+	transition: .3s;
+}
+
+.gameico:hover{
+	filter: grayscale(0);
+	transition: .3s;
+}
+iframe {
+	width: 1000px;
+	height: 550px;
+}
+
+.why_text{
+	font-size: 20px;
+}
+
+.social{
+	width: 37%;
+	height: 100%;
+}
+
+.foot {
+	width: 100%;
+	height: 180px;
+	background: #3F3F3FFF;
+}
+
+
+.social_row {
+	width: 130%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social_ico{
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	background-color: #3F3F3FFF;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: center;
+}
+}
+
+@media only screen and (min-width: 1900px) and (max-width: 2000px){
+
+img{
+	width: 500px;
+	height: 650px;
+}
+
+
+.photo_me{
+	margin-left: 700px;
+	margin-top: 10px;
+}
+
+.name{
+	font-size: 40;
+}
+
+.text_me{
+	font-size: 30;
+	margin-top: 20px;
+}
+
+.games_row{
+	margin-top: 240px;
+	width: 100%;
+	height: 250px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+  .game{
+  	width: 30%;
+	margin: auto;
+	width: 30%;
+	height: 100%;
+}
+ 
+ .gameico{ 
+	margin-left: 40px;
+	margin-top: 10px;
+	width: 245px;
+	height: 245px;
+	border-radius: 100%;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+iframe {
+	width: 1200px;
+	height: 750px;
+}
+
+.why_text{
+	font-size: 30px;
+}
+
+.social{
+	width: 37%;
+	height: 100%;
+}
+
+.foot {
+	width: 100%;
+	height: 180px;
+	background: #3F3F3FFF;
+}
+
+
+.social_row {
+	width: 133%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social_ico{
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	background-color: #3F3F3FFF;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: center;
+}
+}
+
+@media only screen and (min-width: 2001px) and (max-width: 2050px){
+
+img{
+	width: 500px;
+	height: 650px;
+}
+
+
+.photo_me{
+	margin-left: 750px;
+	margin-top: 10px;
+}
+
+.name{
+	font-size: 40;
+}
+
+.text_me{
+	font-size: 30;
+	margin-top: 20px;
+}
+
+.games_row{
+	margin-top: 240px;
+	width: 40%;
+	height: 250px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+  .game{
+  	width: 30%;
+	margin: auto;
+	width: 30%;
+	height: 100%;
+}
+ 
+ .gameico{ 
+	margin-left: 650px;
+	margin-top: 10px;
+	width: 180px;
+	height: 180px;
+	border-radius: 100%;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+iframe {
+	width: 1200px;
+	height: 750px;
+}
+
+.why_text{
+	font-size: 30px;
+}
+
+.social{
+	width: 30%;
+	height: 100%;
+}
+
+.foot {
+	width: 100%;
+	height: 180px;
+	background: #3F3F3FFF;
+}
+
+
+.social_row {
+	width: 30%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social_ico{
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	background-color: #3F3F3FFF;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: center;
+}
+}
