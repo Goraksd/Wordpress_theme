@@ -66,7 +66,6 @@
 			<div class="foot">
 				<div class="social_row">
 					<div class="social"><a href="http://backend3devtm"><div class="social_ico" class="blog"  style="background-image: url(<?php bloginfo('template_directory')?>/img/shield.png);"></div></a></div>
-					<div class="social"><a  href="https://vk.com/matrixsorro"><div class="social_ico" class="vk" style="background-i
 					<div class="social"><a href="https://www.instagram.com/matrixsorro/"><div class="social_ico" class="inst"  style="background-image: url(<?php bloginfo('template_directory')?>/img/instagram.png);"></div></a></div>
 					<div class="social"><a  href="https://vk.com/matrixsorro"><div class="social_ico" class="vk" style="background-image: url(<?php bloginfo('template_directory')?>/img/vkontakte.png");></div></a></div>
 					<div class="social"> <a href="https://github.com/Goraksd"><div class="social_ico" class="git"  style="background-image: url(<?php bloginfo('template_directory')?>/img/Git.png");></div></a></div>
